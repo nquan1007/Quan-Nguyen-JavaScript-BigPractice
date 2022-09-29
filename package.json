@@ -4,6 +4,7 @@
   "description": "Big Practice to dig deeper JS",
   "main": "index.js",
   "scripts": {
+    "start": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/nquan1007/Quan-Nguyen-JavaScript-BigPractice#readme",
   "dependencies": {
     "json-server": "^0.17.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
   }
 }
